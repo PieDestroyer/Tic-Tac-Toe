@@ -2,7 +2,7 @@ public class Board
 	{
 	static String board[][]= new String[3][3] ;
 	static int valueTable[][]= new int [3][3];
-
+	static String reasign[][]=new String[3 ][3];
 	public static void fillBoardWithValue()
 		{
 		for (int i=0;i<3;i++)
@@ -25,6 +25,7 @@ public class Board
 		System.out.println("3 | "+board[2][0]+" | "+board[2][1]+" | "+board[2][2]+" | ");
 		System.out.println("  -------------");
 		}
-	
+	public static void reasign(){
+	reasign[A][1]=board[0][0];
 	}
-	
+	}
